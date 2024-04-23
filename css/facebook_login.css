@@ -1,0 +1,89 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #F0F2F5;
+        }
+        .container{
+            
+        }
+        .box{
+            width: 70%;
+            margin: 150px auto;
+            font-family: "Poppins", sans-serif;
+        }
+        .box .box-left {
+            width: 55%;
+            min-height: 100px;
+            display: inline-block;
+        }
+        .box-left img{
+            width: 65%;
+        }
+        .box-right-main{
+            width: 37%;
+            float: right;
+            margin-right: 20px;
+        }
+        .box .box-right {
+            width: 100%;
+            min-height: 100px;
+            /* display: inline-block; */
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0px 0px 5px gray;
+            margin-right: 20px;
+        }
+        .box-right input{
+            font-size: 20px;
+        }
+        .box-right input::placeholder{
+            font-size: 16px;
+        }
+        .box-right input,.box-right form button{
+            padding: 15px 10px;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            box-shadow: 0px 0px 1px gray;
+        }
+        .box-right form button{
+            background-color: #0866FF;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .box-right span a{
+            color: blue;
+            text-decoration: none;
+        }
+        .box-right button{
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: #42B72A;
+            border: 1px solid gray;
+        }
+        .box-left .content{
+            padding-left: 40px;
+            font-size: 25px;
+            margin-top: -20px;
+        }
+        .box-right-main{
+            text-align: center;
+        }
+        .text-below-right-box{
+            font-size: 14px;
+        }
+        .text-below-right-box span a{
+            font-weight: bold;
+            text-decoration: none;
+        }

@@ -1,0 +1,26 @@
+.container{
+    width: 50%;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.container .box1{
+    width: 100%;
+    position: relative;
+    display: flow-root;
+}
+.container .box1 img{
+    width: 100%;
+    /* height: 300px; */
+    position: absolute;
+    z-index: 2;
+}
+.container .box1 h1{
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px gray;
+}

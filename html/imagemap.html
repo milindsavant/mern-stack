@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <link rel="stylesheet" href="../css/imagemap.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 60%;
+        min-height: 100px;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: wheat;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img-map">
+            <img src="../images/map.png" alt="Loading..." usemap="#mymap">
+            <map name="mymap">
+                <area shape="poly" coords="261,355,178,333,161,344,132,307,161,250,181,251,241,333,269,344" href="https://en.wikipedia.org/wiki/Pune" target="_blank">
+                <area shape="poly" coords="250,228,223,202,196,223,169,231,210,253,215,286,245,316,280,309,246,275,258,259,290,263,295,241" href="https://en.wikipedia.org/wiki/Ahmednagar" target="_blank">
+            </map>
+        </div>
+    </div>
+</body>
+</html>

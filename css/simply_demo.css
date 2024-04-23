@@ -1,0 +1,84 @@
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: #F5F5F5;
+        }
+        .nav{
+            width: 75%;
+            margin: auto;
+            padding: 20px;
+        }
+        .nav h1{
+            display: inline-block;
+            font-size: 40px;
+            color:rgb(82, 80, 80);
+        }
+        .nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding-left: 25px;
+            padding-top:18px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #6c6868;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .poster{
+            background-image: url('https://i.pinimg.com/originals/f0/73/3c/f0733cdf6bf832d1ac66e2e829281d9c.jpg');
+            background-size: cover;
+            height: 70vh;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 150px;
+            line-height: 1;
+        }   
+        .poster h1{
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        .poster span{
+            font-size: 50px;
+            color: #504f4f;
+            font-weight: lighter;
+        }
+        .poster button{
+            background-color: rgb(26, 26, 26);
+            padding: 10px 30px;
+            color: white;
+            border-radius: 5%;
+        }
+        .blog{
+            width: 80%;
+            margin: auto;
+            display:flex;
+            justify-content: center;
+        }
+        .icon{
+            width: 30%;
+            text-align: center;
+            display: inline-block;
+            padding: 20px;
+            color: #353232;
+        }
+        .icon i{
+            font-size: 50px;
+            display: inline-block;
+        }
+        .icon p{
+            color: gray;
+        }
+        .circle{
+            height: 90px;
+            width: 90px;
+            border: 3px solid #504F4F;
+            border-radius: 50%;
+            margin: auto;
+            padding: 19px;
+        }
+        .circle:hover{
+            background-color: black;
+            color: white;
+        }

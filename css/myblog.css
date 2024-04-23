@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.navbar a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar{
+    display: inline;
+    float: right;
+    padding-top: 9px;
+}
+header .logo{
+    background: -webkit-linear-gradient(100deg, #000000 0%, #48abe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.container{
+    width: 90%;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+.blog h1
+{
+    margin: 15px;
+    text-align: center;
+    background-color: lightblue;
+}
+.blog{
+    width: 25%;
+    float: left;
+}
+.blog img{
+    width: 100%;
+}
+.navbar a:hover{
+    background-color: lightblue;
+}
+
