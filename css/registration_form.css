@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 500px;
+    min-height: 50vh;
+    border: 1px solid black;
+    margin: 140px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-field{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+.content label{
+    margin-left: 10px;
+}
+.content input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.dob{
+    width: 49%;
+    display: inline-block;
+}
+.gender{
+    width: 49%;
+    display: inline-block;
+}
+
