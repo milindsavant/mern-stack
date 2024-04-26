@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #A3CCAE;
+}
+.container{
+    width: 80%;
+    min-height: 100px;
+    border: 10px solid gray;
+    margin: 50px auto;
+    background-color: whitesmoke;
+}
+.slider{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/college_copy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 90px;
+}
+.slider > h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    color: #5ABB77;
+    letter-spacing: 3px;
+}
+.diversity{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    padding: 30px 0px;
+}
+.diversity > h1{
+    font-size: 2.4em;
+    font-weight: 400;
+    color: #5ABB77;
+    margin-bottom: 20px;
+}
+
+.diversity > button{
+    margin-top: 25px;
+    background-color: #5ABB77;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.facilities{
+    width: 85%;
+    padding: 30px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid gray;
+}
+.section > h1{
+    font-size: 2.4em;
+    font-weight: 400;
+    color: #5ABB77;
+    margin-top:20px ;
+    text-align: center;
+}
+.facilities > .box{
+    text-align: center;
+    width: 30%;
+    height: 390px;
+    overflow: auto;
+}
+.facilities > .box > .img-box{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.facilities > .box > h2{
+    color: #5ABB77;
+    margin: 15px 0px;
+}
+.blog{
+    width: 85%;
+    padding: 30px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around   ;
+    border-bottom: 3px solid gray;
+}
+.blog > .content{
+    text-align: center;
+    width: 45%;
+    height: 520px;
+    overflow: auto;
+}
+.blog > .content > .img-box-blog{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.blog > .content > h1{
+    color: #5ABB77;
+    margin: 15px 0px;
+}
+.blog > .content > button{
+    margin-top: 25px;
+    background-color: #5ABB77;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.curricullum{
+    width: 85%;
+    padding: 30px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.curricullum > .text-box{
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    overflow: auto;
+}
+.curricullum > .bordered{
+    border-right: 3px solid gray;
+    border-left: 3px solid gray;
+    padding: 0px 20px;
+    box-sizing: unset;
+}
+.curricullum > .text-box > h2{
+    color: #5ABB77;
+    margin: 15px 0px;
+}
+.footer-bg{
+    background-color: #5ABB77;
+}
+.footer{
+    width: 70%;
+    height: 280px;
+    padding: 20px 0px;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.footer > .left-footer{
+    width: 50%;
+    height: 255px;
+    /* border: 1px solid red; */
+    color: white;
+    text-align: left;
+}
+.footer > .left-footer span{
+    display: inline-block;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.footer > .right-footer{
+    width: 50%;
+    height: 255px;
+    /* border: 1px solid red; */
+    color: white;
+    text-align: right;
+}
+
+.right-footer > .icon {
+    display: flex;
+    justify-content: end;
+}
+.right-footer > .icon > i{
+    font-size: 3em;
+    padding: 0px 10px;
+}
+.right-footer > p{
+    margin-top: 15px;
+}
+.right-footer > button{
+    padding: 6px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
