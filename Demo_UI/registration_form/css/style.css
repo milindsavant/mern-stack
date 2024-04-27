@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,#2EC8A2,#1AAAA8);
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+.container > .box{
+    width: 70%;
+    height: 80vh;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+}
+.container > .box > .left-box{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url(../img/camera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -50px;
+    filter: contrast(1.2);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.left-box > .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.left-box > .overlay > .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left-box > .overlay > .nav > h5{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.overlay > .header{
+    width: 100%;
+    height: 100px;
+    margin:60px auto;
+    /* border: 2px solid red; */
+    text-align: center;
+
+}
+.overlay > .header > h4{
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.overlay > .header > h1{
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 37px;
+}
+.overlay > .footer{
+    position: absolute;
+    bottom: 15px;
+}
+.footer > h5{
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic
+}
+
+.box > .right-box{
+    width: 60%;
+    height: 100%;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.right-box > .form-box{
+    width: 65%;
+    height: 70vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-box > .title{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+}
+.form-box > .title > h1{
+    color: #229488;
+}
+.form-box > .title > h5{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 15px;
+}
+.form-box > .content{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plane-text{
+    font-size: 13px;
+    font-weight: 600;
+}
+.plane-text:hover{
+    color: #0BA3A0;
+}
+.form-box > .content > .input-box{
+    width: 75%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(213, 212, 212,0.3);
+}
+.content > .radio-box{
+    width: 75%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 10px;
+}
+.content > .radio-box > input{
+    width: 15px;
+    height: 15px;
+    accent-color: #43A0A0;
+}
+.content > .subscription-box{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+.content > .subscription-box > span:hover{
+    cursor: pointer;
+}
+.content > .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    column-gap: 20px;
+}
+.content > .buttons > button{
+    padding: 9px 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+#cancel{
+    background-color: #322B57;
+}
+#confirm{
+    background-color: #0BA3A0;
+}

@@ -155,8 +155,12 @@
 }
 .section-left > a{
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: red;
+    transition: 0.5s;
+}
+.section-left > a:hover{
+    letter-spacing: 3px;
 }
 .section .section-right{
     width: 49%;
@@ -246,11 +250,13 @@
     font-size: 13px;
     padding: 14px 22px;
     background-color: white;
-    border-color: red;
+    border: 2px solid red;
     color:red;
     letter-spacing: 2px;
     font-weight: bold;
     text-transform: uppercase;
+    transition: 0.5s;
+    
 }
 .services > .view-all-btn >button:hover{
     background-color: red;
@@ -268,6 +274,7 @@
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.9;
+    overflow: hidden;
 }
 .choose-us > .blur {
     width: 100%;
