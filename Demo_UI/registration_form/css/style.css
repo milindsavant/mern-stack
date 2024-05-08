@@ -78,7 +78,9 @@
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-style: italic
+    font-style: italic;
+    text-align: center;
+
 }
 
 .box > .right-box{

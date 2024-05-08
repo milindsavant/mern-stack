@@ -9,7 +9,9 @@
     background-color: red;
     color: white;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* part 1 */
 .container{
     width: 100%;
