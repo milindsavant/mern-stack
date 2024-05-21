@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            width: 80%;
+            min-height: 70px;
+            border: 2px solid black;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            background-color: black;
+            
+        }
+        .nav > ul {
+            list-style-type: none;
+            display: flex;
+            column-gap: 20px;
+            position: relative;
+            color: white;
+        }
+        .nav > ul > li {
+            cursor: pointer;
+            font-size: 2em;
+        }
+        ul > li > ul {
+            list-style-type: none;
+            padding-left: 0px;
+            padding-top: 5px;
+            background-color: black;
+            color: white;
+            width: 100px;
+            visibility: hidden;
+            position: absolute;
+            top: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+        .nav > ul > .dropdown:hover ul{
+            visibility: visible;
+        } 
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li class="dropdown"><span>Dropdown &darr;</span>
+                <ul>
+                    <li>List1</li>
+                    <li>List1</li>
+                    <li>List1</li>
+                    <li>List1</li>
+                    <li>List1</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
